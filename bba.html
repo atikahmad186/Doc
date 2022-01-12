@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="stylesheet" type="text/css" href="BBA.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>BBA</title>
+</head>
+<body>
+	<div class="mainheading">
+<p class="helpline" style="font-size: 15px; font-family: cursive; margin-left: 180px;"><i class="fa fa-phone" aria-hidden="true" style="margin-right: 10px;"></i>
+Tel:+91 (120) 2675904/05, Mob: +91-9873280467</p>
+<p class="mail" style=" font-size: 15px; font-family: cursive; margin-top: -37px; margin-left: 580px; "><i class="fa fa-envelope-o" aria-hidden="true" style="margin-right: 10px"></i>
+info1@iamr.ac.in</p>
+<p style=" font-size: 15px; font-weight: 600px; font-family: cursive; margin-top: -37px; margin-left: 1150px; ">Stay Conncted<i class="fa fa-facebook" aria-hidden="true"
+ style="margin-left: 18px"></i><i class="fa fa-twitter" aria-hidden="true"style="margin-left: 18px; font-size: 17px;"></i>
+
+</p>
+</div>
+<header>
+
+<div class="menubar">
+	<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <div>
+  	 <span class="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+   <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+  }
+  </script>
+<ul>
+	<li>Home</li>
+	<li>About
+	 <div class="sub-menu-1">
+        	<ul>
+        		<li><a href="#mission">About IAMR</a></li>
+        		<li><a href="#mission">Mission & Vision</a></li>
+        		<li><a href="#mission">Management's Desk</a></li>
+        		<li><a href="#mission">Board Of Governor</a></li>
+        		<li><a href="#mission">Executive Board</a></li>
+        		<li><a href="#mission">Why IAMR</a></li>
+        	</ul></li>
+	<li><a href="#Institution">Institution</a>
+	<div class="sub-menu-1">
+        	<ul>
+        		<li><a href="#https://mba.iamr.ac.in/">Institue Of Advanced Management & Research</a></li>
+        		<li><a href="#mission">Institue Of Applied Madicine & Research</a></li>
+        		<li><a href="#mission">IAMR Law College</a></li>
+        		<li><a href="#mission">IAMR B.Ed College</a></li>
+        		<li><a href="#mission">Institute Of Technology & Management, Meerut</a></li>
+        		
+        	</ul></div></li> 
+	<li>Courses</li>
+	<li><a href="#Institution">Placement</a>
+	<div class="sub-menu-1">
+        	<ul>
+        		<li><a href="#mission">Training & Placement</a></li>
+        		<li><a href="#mission">Placement Process</a></li>
+        		<li><a href="#mission">Top Recruiters</a></li>
+        			<li><a href="#mission">Placement Reports</a></li>
+        			<li><a href="#mission">Internship</a></li>
+
+        	</ul></div></li>
+	<li><a href="#Life@iamr">Life @ IAMR</a></li>
+	<li>Gallery</li>
+	<li>Media</li>
+	<li>Notices</li>
+	<li>Virtual Tour</li>
+	<li>Contact us</li>
+  
+</ul></div></header>
+<div>
+	<img src="iamrlogo.png">
+</div>
+<div style=" background: linear-gradient(to right, #1cd8d2, #93edc7); width: 230px; margin-left: 1000px; margin-top: -120px;">
+	<a href="#fee payment" style="text-decoration-line: none;"><p style="font-size: 28px;color: black;padding:10px;padding-left: 15px;">FEE PAYMENT</p></a>
+</div>
+<div class="bcabanner">
+		<img class="myslide"  src="bbaimage1.png" width="100%" height="450px;" >
+		<img class="myslide"  src="bbaimage2.png" width="100%" height="450px;">
+		<img class="myslide"  src="bbaimage3.png" width="100%" height="450px;">
+		<img class="myslide"  src="bbaimage4.png" width="100%" height="450px;">
+		
+		<div class="w3button">
+		 <button class="w3-button " onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button1 " onclick="plusDivs(1)">&#10095;</button></div><br><br>
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("myslide");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+		<script>
+			var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("myslide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+		</script>
+		
+}
+</script>
+<div id="main">
+	<div class="bbaheading"><h2 id="bbabutton" class="bba">BBA</h2></div>
+<div class="bbamainheadeing">
+	<p>BBA(Bachelor Of Bussiness Administrator)</p>
+</div>
+<div class="bbamainpara">
+	<p>IAMR BBA, ranked among Best BBA College in Ghaziabad has earned this repute for its unique pedagogy of teaching and unique learning concepts.<br> The quality that ranks IAMR as exclusive place to study management is IAMR’s specialised approach which focusses on research focussed education,<br> innovative style of study and entrepreneurship motivation-based study which is well supported by world class facilities. Many corporates have<br> recognised IAMR value added curriculum as best practical exposed program and have collaborated us for placements and internships as well.</p>
+</div><h1 style="margin-left: 200px;">Management studies at IAMR Group of Institutions</h1>
+<div class="bbacourses">
+	
+	<div class="bbaundergraduate">
+		<h2 style="background-color: deepskyblue; width: 300px;padding-left: 65px; color: white;height: 42px;padding-top: 5px;">Undergraduate Course</h2>
+		<p class="para">Bachelor of Business Administration<br>
+
+Specialization Offered<br>
+
+♦ Sales and Digital Marketing<br>
+
+♦ Banking and Finance<br>
+
+♦ Human Resources</p>
+	</div>
+	<div class="bbapostgraduate">
+		<h2 style="background-color: red; width: 300px;padding-left: 65px; color: white;height: 42px;padding-top: 5px;">Post Graduate Courses</h2>
+		<p class="para">
+♦ Masters of Business Administration<br>
+
+♦ PGDM</p>
+	</div>
+</div>
+<div class="applyform">
+	<ul>
+		<li class="active"><a  href="#" >Apply Now</a></li>
+		<li><a href="#">Guest Lacture</a></li>
+		<li><a href="#">Prabandhan</a></li>
+		<li><a href="#">FAQs</a></li>
+		<li><a href="#">Value Added Programs</a></li>
+		<li><a href="#">Downloads</a></li>
+	</ul>
+</div>
+<p style="font-size: 23px; font-weight: bold;font-family: monospace,serif;margin-left: 200px;">
+INDUSTRY COLLABORATIVE PROGRAM OF DIGITAL MARKETING</p>
+<h3 style="margin-left: 200px; margin-top: -15px;font-family: monospace;font-size: 18px;">BBA- Specialised in Digital Marketing & Sales</h3>
+<p style="margin-left: 200px;font-size: 18px;line-height: 1.5em; font-family: math;">Marketing has gone leap and bounces and crossed the traditional way of marketing products towards digital media for marketing goods. Emergence of e-commerce<br> industry and logistic companies serves as best infrastructure to support the Digital industry. The report, 2018 Marketing Hiring Trends, says 69% of companies<br> planned to hire more marketers in 2018. The most in-demand expertise were digital advertising (45%), content creation and curation (42%) and content strategy (39%).<br><br>
+
+Understanding the upcoming demand of industry and importance of Digital marketing IAMR has offered student to pursue a separate program in Digital Marketing,<br> crafted as per industry demands. While designing program, Industry requirement has been taken into consideration and to check the quality of program various<br> certification program has been added, such as Google, Facebook Blueprint and Hubspot.</p>
+
+<div style="background-color: #e0ffff">
+	<div style="margin-left: 200px;">
+	<h1>Industry Backed Finance Specialised Program</h1>
+	<h2>BBA- Specialised in Banking and Finance</h2>
+	<p class="manypara">IAMR in consultation with industry and their demand has designed specialization program in Banking and finance.  </p>
+	<h2>Specialization Offered</h2>
+	<p class="manypara">♦ BBA in Banking and Finance</p></div>
+	<div style="margin-left: 900px;margin-top: -90px;margin-bottom: 50px;">
+	<h2>Highlight of the program</h2>
+	<p class="manypara">♦ Industry Consulted and advised program<br>
+
+♦ Various certification programs such as SAP Finacle, Advanced Excel, Tally offered.<br>
+
+♦ Internship in Finance and Banking are offered to expose practicality<br>
+
+♦ Case Study Based Implementation of concepts</p></div>
+</div>
+<div class="queries">
+	<h2 style="font-family: monospace; font-size: 30px;">GET IN TOUCH</h2>
+	<div style="font-size: 20px;line-height: 1.7em;">
+	<p>For updates and queries get in touch with following details<br>
+
+Toll Free Number: 1800 270 3800<br>
+
+General Inquiries : +91-9355047710<br>
+
+Mobile: +91-9873280467<br>
+
+E-Mail: info1@iamr.ac.in</p></div>
+<p style="font-family: cursive;">Note: Utmost care has been while updating about course, but with rapid change in industry and corporate demand there is probability of updates of program. Applicants are therefore advised to consult prior making an application</p>
+</div>
+</div>
+<div class="last">
+
+<div class="last1">
+	<ul>
+		<h2 class="color">Quick Links 1</h2><hr style="border-color:#FFC300 ; width: 1170px; margin-left: -10px;"><br>
+		<li><a href="#">Management’s Desk</a></li>
+		<li><a href="#">Executive Board</a></li>
+<li><a href="#">Board of Governor</a></li>
+<li><a href="#">Advisory Board</a></li>
+<li><a href="#">Training &#038; Placement</a></li>
+<li><a href="#">Why IAMR</a></li>
+<li ><a href="#">Press &#038; Media</a></li>
+<li><a href="#">Labs for Inspire</a></li>
+<li><a href="#">Ranking</a></li>
+	</ul>
+</div>
+<div class="last2">
+	<ul>
+		<h2 class="color">Quick Links 2</h2><br>
+		<li><a href="#">Online Registration</a></li>
+<li><a href="#">Download E-Brochure</a></li>
+<li><a href="#">Research</a></li>
+<li><a href="#">Alumni</a></li>
+<li><a href="#">Campus Tour</a></li>
+<li ><a href="#">Contact Us</a></li>
+<li><a href="#">Industry Sponsored MBA</a></li>
+<li><a href="#">Career at IAMR</a></li>
+	</ul>
+</div>
+<div class="last3">
+	<ul>
+		<h2 class="color">IAMR Groups Of Institutions</h2><br>
+		<li><a href="#">Institute of Advanced Management &<br> Research</a></li>
+<li><a href="#">Institute of Applied Medicines &<br> Research</a></li>
+<li><a href="#">IAMR Law College</a></li>
+<li><a href="#">IAMR B.ed College</a></li>
+<li><a href="#">Institute of Technology & <br>Management, Meerut</a></li>
+<li ><a href="#">Press &#038; Media</a></li>
+<li><a href="#">Step to Success Public School, Meerut</a></li>
+
+	</ul>
+</div>
+<div class="last4">
+	<ul>
+		<h2 class="color">Connect With Us</h2><br>
+		<li><a href="#">Reach Us:</a></li>
+<li><a href="#">9th Km Stone, NH-58, Delhi-Meerut</a></li>
+<li><a href="#">Road</a></li>
+<li><a href="#">Ghaziabad (U.P) – 201206</a></li>
+<li><a href="#">Tel: +91 (120) 2675904/05</a></li>
+<li ><a href="#">Mob: +91-9873280467</a></li>
+<li><a href="#">Monday-Saturday, 9.00am-5.00pm</a></li>
+
+	</ul>
+</div>
+</div>
+<div class="copyright">
+	<h3 class="final1">© 2019, IAMR Group of Institutions, All rights reserved.</h3>
+	<h3 class="final2">Developed by IAMR IT Department</h3></div>
+
+	<div style="margin-top: -55px">
+	<button class="lastbutton" onclick="topFunction()"><a href="#top"> &uarr; </a></button></div>
+	<script type="text/javascript">{
+	function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
